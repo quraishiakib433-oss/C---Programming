@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a=20;
+    int b=30;
+    int c;
+    c=a+b;
+    printf("The Sum of a and b is %d\n",c);
+    return 0;
+}
