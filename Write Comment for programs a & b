@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    /*
+       Multi-line comment:
+       Declaring two integer variables 'a' and 'b' 
+       to perform a basic addition.
+    */
+    int a = 5;  // Single-line comment: Initialize variable a with 5
+    int b = 10; // Single-line comment: Initialize variable b with 10
+
+    // Add variables a and b, then store the result in 'sum'
+    int sum = a + b;
+
+    // Print the final result to the screen
+    printf("The sum of a and b is: %d\n", sum);
+
+    return 0;
+}
