@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Perimeter of Rectangle
+    int a;
+    printf("enter  Length:",a);
+    scanf("%d",&a);
+
+    int b;
+    printf("Enter breadth:",b);
+    scanf("%d",&b);
+    
+    float c = 2*(a+b);
+    printf("Perimeter of Rectangle %f:",c);
+
+    return 0;
+}
