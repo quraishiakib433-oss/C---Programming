@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   float pi=3.14;
+   printf("%f",pi);
+
+    return 0;
+}
