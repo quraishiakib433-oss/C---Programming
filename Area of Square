@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter side :",a);
+    scanf("%d",&a);
+    printf("AREA OF SQUARE IS %d: ",a*a);  
+    return 0;
+}
