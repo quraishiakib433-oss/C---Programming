@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    // check the even Number
+   int a;
+   
+   printf("Enter value of a :",a);
+   scanf("%d",&a);
+   
+   printf("%d\n",a%2==0);
+    return 0;
+}
